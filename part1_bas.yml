@@ -9,7 +9,7 @@ services:
     volumes:
     - basdat1:/var/lib/mysql
     ports:
-      - 53316:3306
+    - 53316:3306
 
 volumes:
   basdat1:
