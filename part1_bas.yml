@@ -1,9 +1,9 @@
 services:
   db1:
-    image: mysql/mysql-server:lastest
+    image: mysql/mysql-server:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: GioMilo
+      MYSQL_ROOT_PASSWORD: cs506
       MYSQL_DATABASE: BoatsAndSailors
       MYSQL_ROOT_HOST: '%'
     volumes:
